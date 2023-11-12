@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石头剪刀布</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="title">
+        <div class="title_text">
+            第1回合（共3回合）
+        </div>
+    </div>
+    <div class="contect">
+        <div class="computer">
+            <div class="img">
+                <div class="original">?</div>
+                <img src="" alt="" class="cp_img">
+            </div>
+            <p class="name">机器人</p>
+            <p class="score">胜：0 | 负：0</p>
+        </div>
+        <div class="my">
+            <div class="img">
+                <div class="original">?</div>
+                <img src="" alt="" class="my_img">
+            </div>
+            <p class="name">我自己</p>
+            <p class="score">胜：0 | 负：0</p>
+        </div>
+    </div>
+    <div class="start_game">
+        <button class="start_btn">开始下一回合</button>
+    </div>
+    <div class="result">
+        <p>本回合赢</p>
+        <h3>(≧v≦)o~~好棒，恭喜机器人获得胜利！</h3>
+    </div>
+    <div class="dialog_form">
+        <dialog id="choose_guess" false>
+            <form id="form_body">
+                <div class="form_body_one">
+                    <legend>请选择要出的手势：</legend>
+                    <select name="" id="guess">
+                        <option value="石头" data-guess="0">石头</option>
+                        <option value="剪刀" data-guess="1">剪刀</option>
+                        <option value="布" data-guess="2">布</option>
+                    </select>
+                </div>
+                <input type="button" value="确定" class="sub">
+            </form>
+        </dialog>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

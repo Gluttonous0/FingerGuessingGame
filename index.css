@@ -1,0 +1,91 @@
+body {
+    background-color: #ffec3d;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title_text {
+    visibility: hidden;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.contect {
+    display: flex;
+    justify-content: space-around;
+}
+
+.original {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.my .img img {
+    display: none;
+    transform: rotateY(180deg);
+}
+
+.name,
+.score {
+    text-align: center;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.start_game {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.start_btn {
+    background-color: #222222;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.result p {
+    display: none;
+    text-align: center;
+}
+
+.result h3 {
+    display: none;
+    text-align: center;
+}
+
+
+.dialog_form {
+    display: flex;
+    margin: auto;
+}
+
+#form_body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_body_one {
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.sub {
+    padding: 8px 15px;
+    border: none;
+    background-color: #1677ff;
+    color: #eee;
+    border-radius: 10px;
+}
+
+#choose_guess::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
