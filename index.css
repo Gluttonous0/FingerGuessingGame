@@ -24,8 +24,11 @@ body {
     font-size: 35px;
 }
 
-.my .img img {
+.img img {
     display: none;
+}
+
+.my .img .my_img {
     transform: rotateY(180deg);
 }
 

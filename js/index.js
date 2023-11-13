@@ -74,6 +74,7 @@ sub.addEventListener('click', function () {
         resultP.innerHTML = `本回合${myName}赢`;
     } else if (guessIndex == a) {
         //平局
+        changeImg(a, guessIndex);
         resultP.style.display = 'block';
         resultP.innerHTML = '本回合平';
     }
